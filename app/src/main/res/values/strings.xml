@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GMiembrosApp</string>
+    <string name="tvGrid">Los Super Amigos</string>
+    <string name="lblnombre">Nombre</string>
+    <string name="lblciudad">Ciudad de Nacimiento</string>
+    <string name="lblmatricula">Matricula</string>
+    <string name="lblExpresion">Expresion Creativa</string>
+</resources>
