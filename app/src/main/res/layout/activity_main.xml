@@ -34,14 +34,14 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/carPrimero"
-            android:clickable="true"
-            android:focusable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:layout_width="138dp"
-            android:layout_height="171dp"
+            android:layout_width="157dp"
+            android:layout_height="182dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16sp"
             android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8sp"
             app:cardElevation="8sp">
 
@@ -61,16 +61,17 @@
                     android:src="@drawable/alexander" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/carSegundo"
-            android:clickable="true"
-            android:focusable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:layout_width="138dp"
-            android:layout_height="171dp"
+            android:layout_width="150dp"
+            android:layout_height="176dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16sp"
             android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8sp"
             app:cardElevation="8sp">
 
@@ -82,23 +83,24 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="123dp"
+                    android:layout_height="151dp"
                     android:layout_gravity="center_horizontal"
                     android:contentDescription="@null"
                     android:src="@drawable/rosa1" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/carTercero"
-            android:clickable="true"
-            android:focusable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:layout_width="138dp"
-            android:layout_height="171dp"
+            android:layout_width="158dp"
+            android:layout_height="179dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16sp"
             android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8sp"
             app:cardElevation="8sp">
 
@@ -117,16 +119,17 @@
                     android:src="@drawable/victor" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/carAjuste"
-            android:clickable="true"
-            android:focusable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:layout_width="138dp"
-            android:layout_height="171dp"
+            android:layout_width="152dp"
+            android:layout_height="180dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16sp"
             android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="8sp"
             app:cardElevation="8sp">
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lajuste"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Ajuste"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdAmarillo"
+            android:layout_width="267dp"
+            android:layout_height="84dp"
+            android:onClick="eventoClic"
+            android:text="@string/rbAmarillo"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/Normal"
+            android:layout_width="267dp"
+            android:layout_height="84dp"
+            android:onClick="eventoClic"
+            android:text="@string/rbNormal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAtras" />
+    </RadioGroup>
+
+
+</RelativeLayout>

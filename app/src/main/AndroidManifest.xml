@@ -9,14 +9,68 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity"></activity>
-        <activity android:name=".Segundo" />
-        <activity android:name=".Detalle" />
+
+
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ajuste"
+            android:label="Ajuste"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.Ajuste" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Detalle"
+            android:label="Mienbro del Grupo"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.Detalle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Segundo"
+            android:label="Mienbro del Grupo"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.Segundo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Main2Activity"
+            android:label="Mienbro del Grupo"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.Main2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
