@@ -21,7 +21,7 @@ public class Ajuste extends AppCompatActivity {
         amarillo = (RadioButton) findViewById(R.id.rdAmarillo);
         normal = (RadioButton) findViewById(R.id.Normal);
         button = (Button) findViewById(R.id.btnAtras);
-        
+
 
        button.setOnClickListener(new View.OnClickListener() {
            @Override

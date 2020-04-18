@@ -16,8 +16,6 @@ public class Detalle extends AppCompatActivity implements Serializable {
     private ImageView imgFoto;
     private LinearLayout ldetalle;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +27,6 @@ public class Detalle extends AppCompatActivity implements Serializable {
         expresion = (TextView) findViewById(R.id.txExpresion);
         imgFoto = (ImageView) findViewById(R.id.imgFoto);
         ldetalle = (LinearLayout)  findViewById(R.id.ldetalle);
-
-
-
 
          imgFoto.setImageResource(R.drawable.alexander);
 
@@ -45,8 +40,5 @@ public class Detalle extends AppCompatActivity implements Serializable {
          expresion.setText(expres);
         String black = getIntent().getStringExtra("background");
         ldetalle.setBackground(new ColorDrawable(Color.parseColor(black)));
-
-
-
     }
 }

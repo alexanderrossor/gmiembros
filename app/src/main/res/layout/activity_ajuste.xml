@@ -9,6 +9,8 @@
     android:orientation="vertical">
 
 
+
+
     <RadioGroup
         android:layout_width="360dp"
         android:layout_height="wrap_content">
@@ -28,6 +30,7 @@
             android:onClick="eventoClic"
             android:text="@string/rbNormal"
             android:textSize="20sp" />
+
 
         <Button
             android:id="@+id/btnAtras"

@@ -9,4 +9,5 @@
     <string name="rbNormal">Normal</string>
     <string name="txColor">Selecionar Color de Background</string>
     <string name="btnAtras">Atras</string>
+    <string name="chAzul">Azul</string>
 </resources>
